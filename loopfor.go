@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-// Brincanndo Loop usando o break com a condição if 
+// Brincanndo com Loop usando o break com a condição if 
 // mostra o intervalo entre as entradas das variáveis.
 func main(){
 	anonascimento := 1976

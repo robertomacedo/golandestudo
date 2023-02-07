@@ -6,10 +6,13 @@ import (
 )
 func hello(nome string){      //Função com argumento nome 
 	fmt.Println("Olá", nome)
+
 }
 
 func soma(a, b int) int{   //Função soma
 	return a + b
+	return a + b
+
 }
 
 func conv(a int, b string) int{  // Função conver o argumento "b" no caso string para inteiro
