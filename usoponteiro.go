@@ -10,7 +10,7 @@ type garoto struct{
 
 func main() {
 
-	p := garoto{"Davi", "Lucas da Silva", 15} // Atribuindo dados à variável p
+	p := garoto{"Davi", "Lucas da Silva, idade:", 15 } // Atribuindo dados à variável p
 	fmt.Println(p) // Mosntrando na tela o valor de "p"
 
 	mudar(&p) //Chamando a função mudar
@@ -19,6 +19,6 @@ func main() {
 }
 func mudar(g *garoto) {
 	(*g).nome = "Daniel" // Mudar Davi por Daniel
-	g.sobrenome = "Silva Souza" // Mudar Lucas da Silva por Silva Souza
+	g.sobrenome = "Silva Souza, idade:" // Mudar Lucas da Silva por Silva Souza
 
 }
