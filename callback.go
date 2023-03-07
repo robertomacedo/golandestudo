@@ -5,7 +5,7 @@ import "fmt"
 func main(){
 
 	t := somentePares(soma, []int{50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60}...)
-	fmt.Println("Soma de os números impares",t)
+	fmt.Println("Soma dos números impares",t)
 	//fmt.Println("Soma de os números Pares",t)
 }
 func soma(x ...int) int{
